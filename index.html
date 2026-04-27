@@ -3,139 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RELCO Digital Solutions | AI Strategy & High-Ticket Consulting</title>
+    <title>RELCO Digital Solutions | High-Ticket AI Consulting & Business Development</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Montserrat', sans-serif; background-color: #011C42; }
+        body { font-family: 'Montserrat', sans-serif; background-color: #011C42; color: white; }
         h1, h2 { font-family: 'Playfair Display', serif; }
-        .ep-bg { background: radial-gradient(circle at center, #012B60 0%, #011C42 100%); }
-        .gold-border { border-color: #BF953F; }
+        .hero-bg { 
+            background: radial-gradient(circle at center, #013F8A 0%, #011C42 100%);
+            border-bottom: 2px solid #BF953F;
+        }
         .cyan-text { color: #00E9F2; }
-        .gradient-btn { background: linear-gradient(135deg, #013F8A, #00C2FF); }
-        .score-circle { border: 12px solid #00C2FF; filter: drop-shadow(0 0 10px #00C2FF); }
+        .gold-border { border-color: #BF953F; }
+        .gradient-btn { 
+            background: linear-gradient(135deg, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+            color: #011C42;
+            box-shadow: 0 10px 30px rgba(191, 149, 63, 0.3);
+        }
+        .form-input {
+            background-color: #01132C;
+            border: 1px solid #013F8A;
+            color: white;
+        }
+        .form-input:focus {
+            border-color: #00E9F2;
+            ring: 2px #00E9F2;
+        }
     </style>
 </head>
-<body class="ep-bg text-white">
+<body>
 
-    <header class="fixed w-full z-50 bg-[#011C42]/80 backdrop-blur-sm border-b border-[#013F8A]">
-        <div class="max-w-[1400px] mx-auto px-10 py-3 flex justify-between items-center text-sm font-medium uppercase tracking-wider">
-            <div>
-                <span class="text-xl font-bold tracking-tighter text-white">RELCO<span class="text-[#00C2FF]"> DIGITAL</span></span>
-            </div>
-            <div class="hidden lg:flex space-x-12">
-                <a href="#solutions" class="text-slate-300 hover:text-white transition">Agentic AI</a>
-                <a href="#consulting" class="text-slate-300 hover:text-white transition">Consulting</a>
-                <a href="#misbah" class="text-slate-300 hover:text-white transition">The Principal</a>
-            </div>
-            <div>
-                <a href="#apply" class="inline-block px-8 py-2.5 gradient-btn text-white font-semibold rounded-lg hover:opacity-90 transition shadow-lg shadow-cyan-500/20">
-                    Strategic Inquiry
-                </a>
+    <header class="fixed w-full z-50 bg-[#011C42]/80 backdrop-blur-sm">
+        <div class="max-w-[1400px] mx-auto px-10 py-4 flex justify-between items-center text-sm font-medium uppercase tracking-wider">
+            <span class="text-xl font-bold tracking-tighter text-white">RELCO<span class="text-[#00E9F2]"> DIGITAL</span></span>
+            <div class="flex items-center space-x-6">
+                <a href="https://linkedin.com/in/misbah-ul-alam-20551b48" class="text-slate-300 hover:text-white transition">LinkedIn</a>
+                <a href="#inquiry" class="px-6 py-2 border border-[#BF953F] text-[#BF953F] rounded-full hover:bg-[#BF953F] hover:text-[#011C42] transition">Request consultation</a>
             </div>
         </div>
     </header>
 
-    <section class="pt-40 pb-28 px-10">
-        <div class="max-w-[1400px] mx-auto grid lg:grid-cols-[2.1fr,1.9fr] gap-12 items-center">
+    <section class="pt-40 pb-28 hero-bg px-10">
+        <div class="max-w-[1200px] mx-auto flex flex-col items-center text-center">
             
-            <div>
-                <h1 class="text-6xl leading-[1.1] text-white">
-                    Every AI Investment Should Be a Result You <span class="italic text-[#00C2FF]">Trust.</span>
-                </h1>
-                <p class="mt-8 text-xl text-slate-300 leading-relaxed max-w-2xl">
-                    <strong class="text-white">RELCO Digital Solutions</strong> bridges the gap between technical complexity and sustainable growth. Lead by <strong class="text-white">Misbah-ul-alam</strong>, we architect agentic AI frameworks that scale enterprise performance with absolute precision.
-                </p>
-                <div class="mt-12 flex space-x-6 items-center">
-                    <img src="Misbah.jpg" alt="Misbah-ul-alam" class="w-24 h-24 rounded-full border-2 gold-border shadow-2xl object-cover">
-                    <div>
-                        <a href="#apply" class="inline-block px-10 py-4 border border-white rounded-xl hover:border-[#00C2FF] hover:text-[#00C2FF] transition text-lg font-semibold">
-                            Meet the Principal
-                        </a>
-                    </div>
-                </div>
+            <div class="mb-10 relative">
+                <div class="absolute -inset-1 gold-border border-4 rounded-full blur-sm opacity-50"></div>
+                <img src="principal_portrait.jpg" alt="Misbah-ul-alam, Principal AI Strategist" class="w-32 h-32 rounded-full border-4 gold-border shadow-2xl object-cover relative">
             </div>
 
-            <div class="relative bg-[#01132C] border-2 gold-border rounded-3xl p-10 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.7)]">
-                <div class="flex justify-between items-start">
-                    <span class="text-sm font-semibold uppercase tracking-widest text-slate-400">Consultancy Scorecard</span>
-                    <span class="px-5 py-1 bg-green-950 text-green-300 text-xs font-bold rounded-full border border-green-700 uppercase">Verified High-Ticket</span>
+            <span class="text-sm font-bold cyan-text uppercase tracking-widest mb-4">Principal Advisory</span>
+            <h1 class="text-6xl leading-[1.1] mb-6 max-w-4xl">
+                Bespoke AI Strategy for Visionary Enterprises Ready to <span class="italic text-[#BF953F]">Scale.</span>
+            </h1>
+            <p class="text-xl text-slate-300 leading-relaxed max-w-2xl mb-12">
+                RELCO Digital Solutions bridges technical complexity and sustainable growth. We deliver exclusive, result-driven AI consulting designed for high-net-worth leadership and verified business development.
+            </p>
+            <a href="#inquiry" class="px-12 py-5 gradient-btn text-lg font-bold rounded-xl transition hover:opacity-95 hover:scale-[1.02] transform">
+                Apply for Private Consultation
+            </a>
+        </div>
+    </section>
+
+    <section id="inquiry" class="py-28 px-10 bg-[#01132C]">
+        <div class="max-w-[1000px] mx-auto border-2 gold-border p-12 rounded-3xl shadow-2xl">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-extrabold text-white">Strategic Partnership Inquiry</h2>
+                <p class="mt-6 text-xl text-slate-400 leading-relaxed max-w-2xl mx-auto">
+                    To maintain our standard of excellence, RELCO accepts a limited number of high-impact engagements. Please provide the details of your opportunity for immediate evaluation.
+                </p>
+            </div>
+            
+            <form action="#" class="space-y-8">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <label class="block text-xs font-bold cyan-text uppercase tracking-wider mb-2">Name</label>
+                        <input type="text" class="w-full p-4 form-input rounded-lg" placeholder="e.g., Jane Smith">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold cyan-text uppercase tracking-wider mb-2">Business Email</label>
+                        <input type="email" class="w-full p-4 form-input rounded-lg" placeholder="e.g., jsmith@enterprise.com">
+                    </div>
                 </div>
                 
-                <div class="mt-10 grid grid-cols-[1fr,2fr] gap-10">
-                    <div class="text-center">
-                        <div class="score-circle inline-block w-40 h-40 rounded-full flex items-center justify-center">
-                            <span class="text-7xl font-bold">97</span>
-                        </div>
-                        <span class="block mt-3 text-sm text-slate-400">Trust Index</span>
-                    </div>
-                    <div class="space-y-4">
-                        <div class="flex justify-between items-baseline"><span class="text-xs uppercase text-slate-500 font-bold">Risk Management</span><span class="cyan-text text-xl font-semibold">Protected</span></div>
-                        <div class="flex justify-between items-baseline"><span class="text-xs uppercase text-slate-500 font-bold">Implementation</span><span class="cyan-text text-xl font-semibold">Certified</span></div>
-                        <div class="flex justify-between items-baseline"><span class="text-xs uppercase text-slate-500 font-bold">Profitability</span><span class="cyan-text text-xl font-semibold">High-ROI</span></div>
-                    </div>
-                </div>
-
-                <div class="mt-12 space-y-3">
-                    <div class="flex justify-between text-xs text-slate-500 uppercase"><span class="cyan-text font-bold">AI Roadmap Integrity</span><span>95% Accuracy</span></div>
-                    <div class="h-1 bg-green-500 rounded-full w-[95%]"></div>
-                    
-                    <div class="flex justify-between text-xs text-slate-500 uppercase"><span class="cyan-text font-bold">Client Scalability</span><span>Enterprise Ready</span></div>
-                    <div class="h-1 bg-[#013F8A] rounded-full w-[90%]"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="solutions" class="py-24 bg-[#01132C]">
-        <div class="max-w-[1400px] mx-auto px-10">
-            <h2 class="text-4xl underline decoration-[#00C2FF] underline-offset-8">Consulting Pillars</h2>
-            <div class="mt-16 grid md:grid-cols-2 gap-12">
-                <div class="p-8 bg-[#011C42] border border-[#013F8A] rounded-xl hover:border-amber-500 transition-all duration-300">
-                    <h3 class="text-2xl font-bold cyan-text mb-4">Strategic AI Advisory</h3>
-                    <p class="text-slate-400 leading-relaxed">Aligning your corporate goals with advanced AI capabilities. We don't just implement tools; we build the future architecture of your growth.</p>
-                </div>
-                <div class="p-8 bg-[#011C42] border border-[#013F8A] rounded-xl hover:border-amber-500 transition-all duration-300">
-                    <h3 class="text-2xl font-bold cyan-text mb-4">Agentic Automation</h3>
-                    <p class="text-slate-400 leading-relaxed">Deploying autonomous AI agents that act as a force-multiplier for your existing workforce, driving efficiency to new heights.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="apply" class="py-24 px-10 bg-white text-[#011C42]">
-        <div class="max-w-[1400px] mx-auto grid md:grid-cols-[1fr,2fr] gap-16 items-center">
-            <div>
-                <h2 class="text-5xl leading-tight font-extrabold text-[#011C42]">Initiate Partnership.</h2>
-                <p class="mt-6 text-xl text-slate-600 leading-relaxed">
-                    RELCO Digital Solutions provides bespoke consulting for elite clients. Please provide your business details for a strategic evaluation.
-                </p>
-            </div>
-            
-            <form action="#" class="space-y-6 bg-slate-50 p-10 rounded-3xl shadow-lg border border-slate-200">
-                <div class="grid md:grid-cols-2 gap-6">
-                    <input type="text" placeholder="Full Name" class="w-full p-4 border border-slate-300 rounded-lg outline-none focus:ring-2 focus:ring-cyan-500">
-                    <input type="email" placeholder="Business Email" class="w-full p-4 border border-slate-300 rounded-lg outline-none focus:ring-2 focus:ring-cyan-500">
-                </div>
                 <div>
-                    <label class="block text-xs font-bold text-slate-400 uppercase mb-2">Projected Investment</label>
-                    <select class="w-full p-4 border border-slate-300 rounded-lg text-slate-600">
-                        <option>$25,000 - $100,000</option>
-                        <option>$100,000 - $500,000</option>
-                        <option>$500,000 +</option>
-                    </select>
+                    <label class="block text-xs font-bold cyan-text uppercase tracking-wider mb-2">Primary Business Development Goal</label>
+                    <input type="text" class="w-full p-4 form-input rounded-lg" placeholder="e.g., Increase efficiency by 40% or open new market segment">
                 </div>
-                <textarea rows="4" placeholder="Briefly describe your business objective..." class="w-full p-4 border border-slate-300 rounded-lg outline-none focus:ring-2 focus:ring-cyan-500"></textarea>
-                <button type="submit" class="w-full py-5 gradient-btn text-white font-bold rounded-lg hover:opacity-90 transition text-lg uppercase tracking-widest shadow-xl">
-                    Submit Strategic Inquiry
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <label class="block text-xs font-bold cyan-text uppercase tracking-wider mb-2">Current Annual Revenue (Optional)</label>
+                        <select class="w-full p-4 form-input rounded-lg text-slate-500">
+                            <option>&lt; $1M</option>
+                            <option>$1M - $10M</option>
+                            <option>$10M - $50M</option>
+                            <option>$50M +</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold cyan-text uppercase tracking-wider mb-2">Timeline to Initiation</label>
+                        <select class="w-full p-4 form-input rounded-lg text-slate-500">
+                            <option>Immediate (0-3 Months)</option>
+                            <option>Planning (3-6 Months)</option>
+                            <option>Exploratory</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <button type="submit" class="w-full py-5 gradient-btn text-lg font-bold rounded-lg transition hover:opacity-95 text-center">
+                    Submit Inquiry for Strategic Review
                 </button>
             </form>
         </div>
     </section>
 
-    <footer class="py-12 border-t border-[#013F8A] text-center text-slate-500 text-sm">
+    <footer class="py-10 border-t border-[#013F8A] text-center text-slate-500 text-sm">
         <p>© 2026 RELCO Digital Solutions. All Rights Reserved.</p>
-        <p class="mt-2 font-semibold">Led by <a href="#" class="cyan-text">Misbah-ul-alam</a></p>
+        <p class="mt-2">Principal AI Strategist: Misbah-ul-alam</p>
     </footer>
 
 </body>
